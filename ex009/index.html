@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Outras Formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <hr>
+    <h2>Código-fonte / Pré-Formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+    <pre>
+        <code>
+    let numero = prompt("Digite um número:");
+    numero = parseInt(numero);
+    if (isNaN(numero)) {
+        console.log("Por favor, digite um número válido.");
+        } else {
+        if (numero % 2 == 0) {
+            console.log(numero + " é par.");
+        } else {
+            console.log(numero + " é ímpar.");
+        }
+    }
+        </code>
+    </pre>
+    <p>Tags usadas;</p>
+    
+        <p><code>&lt;code&gt;</code> para letras mono espaçadas.</p>
+        <p><code>&lt;pre&gt;</code> mantém a forma que o texto foi digitado, ideal para escrever códigos.</p>
+        <p><code>&lt;q&gt;</code> para sitações simples.</p>
+
+    <p>Atalhos usados;</p>
+
+        <p>Shift + Tab: <q>Apenas teste</q> </p>    
+    <hr>
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q>.</p>
+    <p>Segundo Diogo Paulino, no seu livro HTML-CSS Simplificado para leigos:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/Html_Css/4wOfEQAAQBAJ?hl=pt-BR&gbpv=1&dq=html+para+leigos&pg=PP1&printsec=frontcover">
+        O HTML serve para <strong>estruturar o conteúdo</strong> de uma págima na Internet. Sem ele o navegador não saberia com exibir textos, imagens ou vídeos de forma organizada.
+    </blockquote> <!--Blockquote serve para adicionar uma citação mais longa, o cite dnete dele é apenas para mostra ao google ou outos navegadores que essa citação é desde livro-->
+    <h2>Abreviações</h2>
+    <p>Estou estudandando <abbr title="HyperText Markup Language">HTMl</abbr> e<abbr title="Cascading Style Sheets"> CSS</abbr>, Estou adorando!</p>
+    <!--Basicamnete o "abbr" serve para mostrar o que siginifica as abreviações, obviamente terá que adicionar uma predefinição-->
+    <h2>Texto invertido </h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML. </bdo></p>
+    <!--bdo é apenas para inverter o texto-->
+</body>
+</html>
